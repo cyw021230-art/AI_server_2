@@ -6,6 +6,10 @@ from ultralytics import YOLO
 # 1. 경로 설정
 model_path = r'C:\ARdata_Python_Server\AI_server_2\best.pt'
 json_path = r'C:\ARdata_Python_Server\AI_server_2\steps.json'
+# model_path = r'C:\lego_test\test\best.pt'     
+# json_path = r'C:\lego_test\test\steps.json'
+# model_path = r'C:\lego_test\test\best.pt'
+# json_path = r'C:\lego_test\test\steps.json'
 
 model = YOLO(model_path)
 with open(json_path, 'r', encoding='utf-8') as f:
